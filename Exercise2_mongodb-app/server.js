@@ -21,7 +21,7 @@ let commentRoutes = require('./routes/commentRoutes');
 app.use('/api/comments', commentRoutes);
 
 // set port, listen for requests
-const PORT = process.env.PORT || 8081;
+const PORT = process.env.PORT || 8085Í;
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
